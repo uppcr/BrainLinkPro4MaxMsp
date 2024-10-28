@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d872950b-b0e9-4df3-aaa5-c290a0e9997f)BrainLinkPro4MaxMsp
+![image](https://github.com/user-attachments/assets/d872950b-b0e9-4df3-aaa5-c290a0e9997f)
 
 BrainLinkPro4MaxMsp 是一个用于将 BrainLink Pro 脑机接口数据实时转发至 Max/MSP 的项目。通过该工具，开发者和音乐创作者能够利用来自 BrainLink Pro 的脑电波、重力、眨眼等数据流，驱动 Max/MSP 中的创意音频、视觉效果，或其他交互内容。
 
