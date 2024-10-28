@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CF6941F28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF6941E28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a */; };
+		3C93703026D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C93702E26D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a */; };
+		6781E8932CCBDB9F00DFD62A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C180C9420E31E1400184852 /* CoreBluetooth.framework */; };
 		FC46860A20E28E0D007830B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46860920E28E0D007830B1 /* QuartzCore.framework */; };
 		FCD0569120DFA2BC00DC7EDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569020DFA2BC00DC7EDB /* AppDelegate.m */; };
 		FCD0569420DFA2BC00DC7EDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569320DFA2BC00DC7EDB /* ViewController.m */; };
 		FCD0569620DFA2BD00DC7EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD0569520DFA2BD00DC7EDB /* Assets.xcassets */; };
 		FCD0569920DFA2BD00DC7EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD0569720DFA2BD00DC7EDB /* Main.storyboard */; };
 		FCD0569C20DFA2BD00DC7EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569B20DFA2BD00DC7EDB /* main.m */; };
-		FCD056A720DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */; };
-		FCD056B220DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */; };
 		FCD056D220DFA42500DC7EDB /* ReciveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056D020DFA42500DC7EDB /* ReciveViewController.m */; };
 		FCD056D320DFA42500DC7EDB /* ReciveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */; };
 /* End PBXBuildFile section */
@@ -53,9 +52,9 @@
 /* Begin PBXFileReference section */
 		3C180C9420E31E1400184852 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		3C180D7B20E374E200184852 /* MAC_HZLBlue4.0Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_HZLBlue4.0Demo.entitlements; sourceTree = "<group>"; };
-		3CF6941C28A63EB800E50A60 /* Blue4Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blue4Manager.h; sourceTree = "<group>"; };
-		3CF6941D28A63EB800E50A60 /* HZLBlueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLBlueData.h; sourceTree = "<group>"; };
-		3CF6941E28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a; sourceTree = "<group>"; };
+		3C93702D26D3343500E40997 /* Blue4Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blue4Manager.h; sourceTree = "<group>"; };
+		3C93702E26D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a; sourceTree = "<group>"; };
+		3C93702F26D3343500E40997 /* HZLBlueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLBlueData.h; sourceTree = "<group>"; };
 		FC46860920E28E0D007830B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FCD0568C20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_HZLBlue4.0Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD0568F20DFA2BC00DC7EDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,11 +67,7 @@
 		FCD0569B20DFA2BD00DC7EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCD0569D20DFA2BD00DC7EDB /* MAC_HZLBlue4_0Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_HZLBlue4_0Demo.entitlements; sourceTree = "<group>"; };
 		FCD056A220DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAC_HZLBlue4.0DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAC_HZLBlue4_0DemoTests.m; sourceTree = "<group>"; };
-		FCD056A820DFA2BD00DC7EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD056AD20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAC_HZLBlue4.0DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAC_HZLBlue4_0DemoUITests.m; sourceTree = "<group>"; };
-		FCD056B320DFA2BD00DC7EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD056CF20DFA42500DC7EDB /* ReciveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReciveViewController.h; sourceTree = "<group>"; };
 		FCD056D020DFA42500DC7EDB /* ReciveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReciveViewController.m; sourceTree = "<group>"; };
 		FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciveViewController.xib; sourceTree = "<group>"; };
@@ -83,8 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6781E8932CCBDB9F00DFD62A /* CoreBluetooth.framework in Frameworks */,
 				FC46860A20E28E0D007830B1 /* QuartzCore.framework in Frameworks */,
-				3CF6941F28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a in Frameworks */,
+				3C93703026D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,14 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CF6941B28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3 */ = {
+		3C93702C26D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1 */ = {
 			isa = PBXGroup;
 			children = (
-				3CF6941C28A63EB800E50A60 /* Blue4Manager.h */,
-				3CF6941D28A63EB800E50A60 /* HZLBlueData.h */,
-				3CF6941E28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3.a */,
+				3C93702D26D3343500E40997 /* Blue4Manager.h */,
+				3C93702E26D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1.a */,
+				3C93702F26D3343500E40997 /* HZLBlueData.h */,
 			);
-			path = IOSMacBrainLinkProSDKSpecialEditonV1.3.3;
+			path = IOSMacBrainLinkProSDKSpecialEditonV1.3.1;
 			sourceTree = "<group>";
 		};
 		FC46860820E28E0D007830B1 /* Frameworks */ = {
@@ -128,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				FCD0568E20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */,
-				FCD056A520DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */,
-				FCD056B020DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */,
 				FCD0568D20DFA2BC00DC7EDB /* Products */,
 				FC46860820E28E0D007830B1 /* Frameworks */,
 			);
@@ -148,14 +142,14 @@
 		FCD0568E20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */ = {
 			isa = PBXGroup;
 			children = (
-				3CF6941B28A63EB800E50A60 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.3 */,
+				3C93702C26D3343500E40997 /* IOSMacBrainLinkProSDKSpecialEditonV1.3.1 */,
 				3C180D7B20E374E200184852 /* MAC_HZLBlue4.0Demo.entitlements */,
 				FCD0568F20DFA2BC00DC7EDB /* AppDelegate.h */,
 				FCD0569020DFA2BC00DC7EDB /* AppDelegate.m */,
 				FCD0569220DFA2BC00DC7EDB /* ViewController.h */,
 				FCD0569320DFA2BC00DC7EDB /* ViewController.m */,
-				FCD056CF20DFA42500DC7EDB /* ReciveViewController.h */,
 				FCD056D020DFA42500DC7EDB /* ReciveViewController.m */,
+				FCD056CF20DFA42500DC7EDB /* ReciveViewController.h */,
 				FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */,
 				FCD0569520DFA2BD00DC7EDB /* Assets.xcassets */,
 				FCD0569720DFA2BD00DC7EDB /* Main.storyboard */,
@@ -164,24 +158,6 @@
 				FCD0569D20DFA2BD00DC7EDB /* MAC_HZLBlue4_0Demo.entitlements */,
 			);
 			path = MAC_HZLBlue4.0Demo;
-			sourceTree = "<group>";
-		};
-		FCD056A520DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */,
-				FCD056A820DFA2BD00DC7EDB /* Info.plist */,
-			);
-			path = MAC_HZLBlue4.0DemoTests;
-			sourceTree = "<group>";
-		};
-		FCD056B020DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */,
-				FCD056B320DFA2BD00DC7EDB /* Info.plist */,
-			);
-			path = MAC_HZLBlue4.0DemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +307,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD056A720DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD056B220DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +381,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -421,10 +396,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -465,6 +443,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -473,9 +452,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -486,6 +469,7 @@
 				CODE_SIGN_ENTITLEMENTS = MAC_HZLBlue4.0Demo/MAC_HZLBlue4.0Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = MAC_HZLBlue4.0Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,13 +484,14 @@
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release",
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3.1",
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/IOSMacBrainLinkProSDKSpecialEditonV1.3.1",
-					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/IOSMacBrainLinkProSDKSpecialEditonV1.3.3",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/brianliu/下载/Mac_HZLBlue4.0Demo/F53OSC-main/Sources/F53OSC/**";
+				USER_HEADER_SEARCH_PATHS = "/Users/brianliu/下载/Mac_HZLBlue4.0Demo/F53OSC-main/Sources/F53OSC/**";
 			};
 			name = Debug;
 		};
@@ -517,6 +502,7 @@
 				CODE_SIGN_ENTITLEMENTS = MAC_HZLBlue4.0Demo/MAC_HZLBlue4.0Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = MAC_HZLBlue4.0Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,13 +517,14 @@
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release",
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3.1",
 					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/IOSMacBrainLinkProSDKSpecialEditonV1.3.1",
-					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/IOSMacBrainLinkProSDKSpecialEditonV1.3.3",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/brianliu/下载/Mac_HZLBlue4.0Demo/F53OSC-main/Sources/F53OSC/**";
+				USER_HEADER_SEARCH_PATHS = "/Users/brianliu/下载/Mac_HZLBlue4.0Demo/F53OSC-main/Sources/F53OSC/**";
 			};
 			name = Release;
 		};

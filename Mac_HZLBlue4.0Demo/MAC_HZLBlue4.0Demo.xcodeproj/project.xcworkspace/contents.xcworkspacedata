@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MAC_HZLBlue4.0Demo.xcodeproj">
+      location = "self:/Users/brianliu/Downloads/Mac_HZLBlue4.0Demo/MAC_HZLBlue4.0Demo.xcodeproj">
    </FileRef>
 </Workspace>
