@@ -107,17 +107,17 @@ typedef enum : NSUInteger {
             int currentZValue = hzlBlueData.zvlaue;
 
             if (currentXValue != self->lastXValue) {
-                [self sendOSCMessageWithAddress:@"/x" andArguments:@[@(currentXValue)] onPort:11126];
+                [self sendOSCMessageWithAddress:@"/x" andArguments:@[@(currentXValue)] onPort:11123];
                 self->lastXValue = currentXValue;
             }
             
             if (currentYValue != self->lastYValue) {
-                [self sendOSCMessageWithAddress:@"/y" andArguments:@[@(currentYValue)] onPort:11127];
+                [self sendOSCMessageWithAddress:@"/y" andArguments:@[@(currentYValue)] onPort:11123];
                 self->lastYValue = currentYValue;
             }
             
             if (currentZValue != self->lastZValue) {
-                [self sendOSCMessageWithAddress:@"/z" andArguments:@[@(currentZValue)] onPort:11128];
+                [self sendOSCMessageWithAddress:@"/z" andArguments:@[@(currentZValue)] onPort:11123];
                 self->lastZValue = currentZValue;
             }
         } else if (hzlBlueData.bleDataType == BLERaw) {
@@ -125,7 +125,7 @@ typedef enum : NSUInteger {
             [self->rawDataBuffer addObject:@(hzlBlueData.raw)];
             
             if (self->rawDataBuffer.count >= 10) {
-                [self sendOSCMessageWithAddress:@"/sensordataraw" andArguments:self->rawDataBuffer onPort:11124];
+                [self sendOSCMessageWithAddress:@"/sensordataraw" andArguments:self->rawDataBuffer onPort:11123];
                 [self->rawDataBuffer removeAllObjects];
             }
             
@@ -133,7 +133,7 @@ typedef enum : NSUInteger {
                 int eyeblinkValue = hzlBlueData.blinkeye;
                 weakSelf.eyeblinkLabel.stringValue = [NSString stringWithFormat:@"Eyeblink: %d", eyeblinkValue];
                 NSArray *eyeblinkData = @[@(eyeblinkValue)];
-                [self sendOSCMessageWithAddress:@"/eyeblink" andArguments:eyeblinkData onPort:11125];
+                [self sendOSCMessageWithAddress:@"/eyeblink" andArguments:eyeblinkData onPort:11123];
                 self->lastEyeblinkValue = eyeblinkValue;
             }
         }
