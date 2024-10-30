@@ -1,12 +1,9 @@
-20241030更新<img width="514" alt="image" src="https://github.com/user-attachments/assets/e9275c1a-b2c4-4dc2-bbbc-35d6057d6855">
-统一端口为11123，使用OSC地址来路由传感器的各项数值
-
-
-
-
-![image](https://github.com/user-attachments/assets/d872950b-b0e9-4df3-aaa5-c290a0e9997f)
+<img width="514" alt="image" src="https://github.com/user-attachments/assets/e9275c1a-b2c4-4dc2-bbbc-35d6057d6855">
 
 BrainLinkPro4MaxMsp 是一个用于将 BrainLink Pro 脑机接口数据实时转发至 Max/MSP 的项目。通过该工具，开发者和音乐创作者能够利用来自 BrainLink Pro 的脑电波、重力、眨眼等数据流，驱动 Max/MSP 中的创意音频、视觉效果，或其他交互内容。
+
+![image](https://github.com/user-attachments/assets/467e82f6-d0c6-4262-80e6-f5436c66554b)
+
 
 项目背景
 
